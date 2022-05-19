@@ -6,6 +6,7 @@ class Infos(models.Model):
     datahora = models.CharField(max_length=10, blank=True)
     valor = models.CharField(max_length=10, blank=True)
     quarto = models.CharField(max_length=2, blank=True)
+    tipo = models.CharField(max_length=200, blank=True)
 
     def __str__(self):
         return self.quarto
