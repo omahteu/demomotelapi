@@ -13,6 +13,7 @@ class Ig(models.Model):
     telefone = models.CharField(max_length=11, blank=True)
     telefone2 = models.CharField(max_length=11, blank=True)
     telefone3 = models.CharField(max_length=11, blank=True)
+    tabela_preco = models.CharField(max_length=100, blank=True)
 
     def __str__(self):
         return self.fantasia
