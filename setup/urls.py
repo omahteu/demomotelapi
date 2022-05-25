@@ -17,6 +17,7 @@ from painel.views import PainelViewSet
 from infos.views import InfosViewSet
 from credito.views import CreditoViewSet
 from debito.views import DebitoViewSet
+from preco.views import TabelaPrecoViewSet
 
 router = routers.DefaultRouter()
 router.register('caixa', CaixaViewSet, basename='caixa')
@@ -31,6 +32,7 @@ router.register('infos', InfosViewSet, basename='infos')
 router.register('ocupacoes', OcupacaoViewSet, basename='ocupacao')
 router.register('painel', PainelViewSet, basename='painel')
 router.register('patio', PatioViewSet, basename='patio')
+router.register('tabela', TabelaPrecoViewSet, basename='tabela')
 router.register('produtos', ProdutoViewSets, basename='produtos')
 router.register('quartos', QuartoViewSet, basename='quarto')
 router.register('usuarios', UsuarioViewSet, basename='usuario')

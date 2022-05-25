@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'ocupacoes',
     'painel',
     'patio',
+    'preco',
     'produtos',
     'quartos',
     'rest_framework',
