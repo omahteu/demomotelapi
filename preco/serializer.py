@@ -4,5 +4,5 @@ from preco.models import TabelaPreco
 
 class TabelaPrecoSerializer(serializers.ModelSerializer):
     class Meta:
-        model: TabelaPreco
-        fields: '__all__'
+        model = TabelaPreco
+        fields = '__all__'
