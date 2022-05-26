@@ -18,6 +18,7 @@ from infos.views import InfosViewSet
 from credito.views import CreditoViewSet
 from debito.views import DebitoViewSet
 from preco.views import TabelaPrecoViewSet
+from tempos.views import TemposViewSet
 
 router = routers.DefaultRouter()
 router.register('caixa', CaixaViewSet, basename='caixa')
@@ -35,6 +36,7 @@ router.register('patio', PatioViewSet, basename='patio')
 router.register('tabela', TabelaPrecoViewSet, basename='tabela')
 router.register('produtos', ProdutoViewSets, basename='produtos')
 router.register('quartos', QuartoViewSet, basename='quarto')
+router.register('tempos', TemposViewSet, basename='tempos')
 router.register('usuarios', UsuarioViewSet, basename='usuario')
 
 urlpatterns = [

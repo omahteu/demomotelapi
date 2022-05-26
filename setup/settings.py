@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'produtos',
     'quartos',
     'rest_framework',
+    'tempos',
     'usuarios',
 ]
 
