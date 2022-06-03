@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'emeil',
     'ig',
     'infos',
+    'limpeza',
     'ocupacoes',
     'painel',
     'patio',
