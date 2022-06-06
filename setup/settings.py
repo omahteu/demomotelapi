@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'comanda',
     'credito',
     'debito',
+    'desistencia',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
