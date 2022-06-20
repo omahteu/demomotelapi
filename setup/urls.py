@@ -22,6 +22,7 @@ from tempos.views import TemposViewSet
 from limpeza.views import LimpezaViewSet
 from desistencia.views import DesistenciaViewSet
 from valor.views import ValoresViewSet
+from auditoria.views import AuditoriaViewSet
 
 router = routers.DefaultRouter()
 router.register('caixa', CaixaViewSet, basename='caixa')
@@ -44,6 +45,7 @@ router.register('usuarios', UsuarioViewSet, basename='usuario')
 router.register('limpeza', LimpezaViewSet, basename='limpeza')
 router.register('desistencia', DesistenciaViewSet, basename='desistencia')
 router.register('valores', ValoresViewSet, basename='valores')
+router.register('auditoria', AuditoriaViewSet, basename='auditoria')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

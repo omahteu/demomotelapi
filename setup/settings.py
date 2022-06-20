@@ -20,6 +20,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'auditoria',
     'camareira',
     "corsheaders",
     'caixa',
